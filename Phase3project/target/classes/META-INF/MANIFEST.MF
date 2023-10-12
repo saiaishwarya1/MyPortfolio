@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Phase3project
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Lenovo
+Implementation-Vendor-Id: com.emaple
+Build-Jdk: 1.8.0_144
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/Phase3project
+Created-By: Maven Integration for Eclipse
+

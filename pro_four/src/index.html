@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your JavaScript Playground</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    
+    <header>
+      
+      <h1><i>Kitchen Story</i></h1>
+      <div class="search-box">
+        <form action ="" onsubmit="return false">
+        <input type="text" id="search" placeholder="Search your ingredients here">
+        </form>
+      </div>
+      <div class="admin-page">
+        <form  action="admin.html">
+          <table>
+            <p>Admin Login</p> 
+         <tr><td>Name</td><td><input type="text" ></td></tr>
+         <tr><td>Password</td><td><input type="password" ></td></tr>
+         <tr><td></td><td><input type="submit" value="login"></td></tr>
+         </table>
+         </a>
+         </form>
+      </div>
+      <nav>
+        <ul>
+          <li class ="cart">
+            <a href="cart.html">
+              <ion-icon name ="basket"></ion-icon>Cart<span>0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+   
+    <main>
+      <div class="slide-container">
+        <section class="container" id="store-products">
+
+          <div class="store-product masala">
+            <img src="/product_img/mdh.jfif" alt="">
+            <div class="product-details">
+              <h2>MDH garam masala</h2>
+              <p> <span>₹78</span></p>
+              <a class ="add-cart cart1"href="#">Add to cart</a>
+            </div>
+          </div>
+
+          <div class="store-product masala">
+            <img src="/product_img/catch.jfif" >
+            <div class="product-details">
+              <h2>Catch garam masala</h2>
+              <p> <span>₹75</span></p>
+              <a class ="add-cart cart2"  href="#">Add to cart</a>
+            </div>
+          </div>
+
+          <div class="store-product masala">
+            <img src="/product_img/eve.jfif" alt="">
+            <div class="product-details">
+              <h2>Everest garam masala</h2>
+              <p> <span>₹80</span></p>
+              <a class ="add-cart cart3" href="#">Add to cart</a>
+            </div>
+          </div>
+
+          <div class="store-product ketchup">
+            <img src="/product_img/Kissan.jfif" alt="">
+            <div class="product-details">
+              <h2>Kissan tomato ketchup</h2>
+              <p> <span>₹80</span></p>
+              <a class ="add-cart cart4" href="#">Add to cart</a>
+            </div>
+          </div>
+
+          <div class="store-product ketchup">
+            <img src="/product_img/maggie.jfif">
+            <div class="product-details">
+              <h2>Maggie tomato ketchup</h2>
+              <p> <span>₹150</span></p>
+              <a class ="add-cart cart4" href="#">Add to cart</a>
+            </div>
+          </div>
+
+          <div class="store-product ketchup">
+            <img src="/product_img/heinz.jfif">
+            <div class="product-details">
+              <h2>Heinz tomato ketchup</h2>
+              <p> <span>₹200</span></p>
+              <a class ="add-cart cart4" href="#">Add to cart</a>
+            </div>
+          </div>
+           
+          <div class="store-product cheese">
+            <img src="/product_img/go.jfif">
+            <div class="product-details">
+              <h2>Go cheese</h2>
+              <p> <span>₹125</span></p>
+              <a class ="add-cart cart4" href="#">Add to cart</a>
+            </div>
+          </div>
+
+          <div class="store-product ketchup">
+            <img src="/product_img/britania.jfif">
+            <div class="product-details">
+              <h2>Britania cheese</h2>
+              <p> <span>₹100</span></p>
+              <a class ="add-cart cart4" href="#">Add to cart</a>
+            </div>
+          </div>
+
+          <div class="store-product ketchup">
+            <img src="/product_img/amul-cheese-block-500x500.jpg">
+            <div class="product-details">
+              <h2>Amul cheese</h2>
+              <p> <span>₹150</span></p>
+              <a class ="add-cart cart4" href="#">Add to cart</a>
+            </div>
+          </div>
+
+
+        </section>
+      </div>
+    </main>
+    <script type="module" src="./js/index.js"></script>
+    <script src="./js/cart.js"></script>
+  </body>
+</html>

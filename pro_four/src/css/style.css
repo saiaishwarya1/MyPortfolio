@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+
+header{
+  background-color:#999966;
+  padding: 1rem;
+  
+}
+
+header h1{
+ font-size: 3.5rem;
+ line-height:2;
+ color: var(--color-primary); 
+}
+
+.search-box form input{
+  width:30rem;
+  padding: 7px;
+  border:none;
+  outline:none;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  border-bottom: 2px solid orange;
+}
+
+ .btn{
+   font-size: 1.4rem;
+   text-decoration: none;
+   color: #fff;
+   background-color:orange;
+   padding:5px;
+   border-radius:3px;
+   margin-right: 1rem;
+ }
+
+ .active{
+   background-color: var(--color-primary);
+ }
+
+  #store-products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    column-gap: 3rem;
+    row-gap: 3rem;
+
+  }
+
+  .store-product{
+    border:1px solid #eee;
+    border-radius:3px;
+    max-width: 25rem;
+  }
+
+ 
+
+  .product-details a{
+    font-size: 1rem;
+    
+
+  }
+
+  .cart a{
+    background-color: orange;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .cart ion-icon{
+    vertical-align: bottom;
+    font-size: 20px;
+    padding-right:5px;
+  }
+
+  .container,.products-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 100px;
+
+  }
+
+  .image{
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .add-cart{
+    background-color:orange;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  }
+
+  /*cart page*/
+
+  .products-container{
+    max-width: 650px;
+    justify-content: space-around;
+    margin:0 auto;
+    margin-top: 50px;
+
+  }
+
+  .product-header{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgray;
+    margin:0 auto;
+  }
+
+  .product-title{
+    width: 45%;
+  }
+
+  .price{
+    width: 15%;
+    display: flex;
+    align-items: center;
+
+  }
+
+ .total{
+    width: 10%;
+    display: flex;
+    align-items: center;
+  }
+
+  .product{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+  }
+
+  .quantity{
+    width: 30%;
+    display: flex;
+    align-items: center;
+  }
+   
+  .products-container ion-icon{
+    font-size: 25px;
+    color:blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+
+  }
+
+  .product{
+    position: relative;
+    right: 32ch;
+    top: 3ch;
+  }
+
+  .price{
+    position: relative;
+    left: 35ch;
+  }
+
+  .quantityf{
+    position: relative;
+    left: 20ch;
+    bottom: 2ch;
+  }
+
+  .totalf{
+    position: relative;
+    left: 45ch;
+    bottom: 4.5ch;
+  }
+
+  .last{
+    position: relative;
+    left: 35ch;
+    font-size:40px;
+  }
+
+  .pay{
+    position: relative;
+    left: 100ch;
+    bottom: 70px;
+  }
+
+  
